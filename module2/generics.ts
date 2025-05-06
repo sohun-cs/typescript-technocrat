@@ -18,7 +18,13 @@
     const boolArray: GenericArray<boolean> = [true, false, true];
 
 
-    const user: GenericArray<{ name: string; age: number }> = [
+
+    interface User {
+        name: string; 
+        age: number
+    }
+
+    const user: GenericArray<User> = [
         {
             name: "Mezba",
             age: 100
@@ -28,6 +34,18 @@
             age: 110
         }
     ]
+
+
+    // const user: GenericArray<{ name: string; age: number }> = [
+    //     {
+    //         name: "Mezba",
+    //         age: 100
+    //     },
+    //     {
+    //         name: "Jhankar Mahbub",
+    //         age: 110
+    //     }
+    // ]
 
 
     // Generic Tuple
