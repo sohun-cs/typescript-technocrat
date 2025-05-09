@@ -3,15 +3,15 @@
     // oop - class
 
     class Animal {
-        name: string;
-        species: string;
-        sound: string;
+        // public name: string;
+        // public species: string;
+        // public sound: string;
 
-
-        constructor(name: string, species: string, sound: string) {
-            this.name = name;
-            this.species = species;
-            this.sound = sound;
+        // Parameter Properties
+        constructor(public name: string, public species: string, public sound: string) {
+            // this.name = name;
+            // this.species = species;
+            // this.sound = sound;
         }
 
         // Normal function only. Arrow function e this kaaj kore name
